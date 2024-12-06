@@ -39,6 +39,7 @@ const Hero = () => {
           </div>
         </div>
 
+{/* // p */}
         {/* Image section */}
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
