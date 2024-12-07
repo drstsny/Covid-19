@@ -1,12 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
-  resolve: {
-    alias: {
-      '@component': '/src/component', // Adjust the path to match your folder structure
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: [
+        'bootstrap/dist/css/bootstrap.min.css' // Tambahkan Bootstrap di sini
+      ],
     },
   },
 });

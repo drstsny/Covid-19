@@ -6,6 +6,7 @@ import HowItHelps from "./component/HowItHelps/HowItHelps";
 import Uses from "./component/Uses/Uses.jsx";
 import Trust from "./component/Trust/Trust.jsx";
 import Footer from "./component/Footer/Footer.jsx";
+
 const App = () => {
   return (
     <main className="overflow-x-hidden ">
