@@ -32,9 +32,10 @@ const Hero = () => {
               variants={SlideUp(0.6)}
               whileInView={"animate"}
               initial="initial"
-              className="bg-primary text-white px-6 py-4 rounded-lg mt-4 w-fit mx-auto md:mx-0 font-bold hover:shadow-lg duration-200"
             >
-              <button>See how to use it</button>
+              <a href="https://ayosehat.kemkes.go.id/7-langkah-sederhana-yang-efektif-mengurangi-penyebaran-covid-19">
+                <button className="bg-blue-500 hover:bg-primary text-white px-6 py-4 rounded-lg mt-4 w-fit mx-auto md:mx-0 font-bold hover:shadow-lg duration-200" >See how to use it</button>
+              </a>
             </motion.div>
           </div>
         </div>

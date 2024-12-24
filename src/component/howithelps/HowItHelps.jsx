@@ -18,33 +18,40 @@ const HowItHelps = () => {
                 whileInView={"animate"}
                 initial="initial"
               >
-                <Card
-                  icon={Icon1}
-                  heading="Symptoms"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
-                />
+                <a href="https://en.wikipedia.org/wiki/Signs_and_symptoms">
+                  <Card
+                    icon={Icon1}
+                    heading="Symptoms"
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                  />
+                </a>
               </motion.div>
               <motion.div
                 variants={SlideRight(0.4)}
                 whileInView={"animate"}
                 initial="initial"
               >
-                <Card
-                  icon={Icon2}
-                  heading="Recommendations"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
-                />
+                <a href="https://www.halodoc.com/artikel/ketahui-jenis-obat-corona-yang-ampuh-dan-pernah-digunakan?srsltid=AfmBOoryzTYq3CjR5d3LG0EW_WV6ZqOJ7ka3U2yxek0a1ayVxWZfTVYk">
+                  <Card
+                    icon={Icon2}
+                    heading="Recommendations"
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                  />
+                </a>
               </motion.div>
               <motion.div
                 variants={SlideRight(0.6)}
                 whileInView={"animate"}
                 initial="initial"
+                
               >
-                <Card
-                  icon={Icon3}
-                  heading="Local information"
-                  text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
-                />
+                <a href="https://ayosehat.kemkes.go.id/informasi-tentang-virus-corona-novel-coronavirus">
+                  <Card
+                    icon={Icon3}
+                    heading="Local information"
+                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risussed volutpat non."
+                    />
+                </a>
               </motion.div>
             </div>
           </div>
@@ -63,13 +70,15 @@ const HowItHelps = () => {
             </p>
             <p className="text-sm text-gray-400 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-              <a href="#" className="text-primary">
+              <a href="https://id.wikipedia.org/wiki/Covid-19" className="text-primary">
                 Learn More
               </a>
             </p>
+            <a href="https://infeksiemerging.kemkes.go.id/dashboard/covid-19">  
             <button className="w-fit mt-4 border border-gray-200 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
               Get in Touch
             </button>
+            </a>
           </motion.div>
         </div>
       </div>

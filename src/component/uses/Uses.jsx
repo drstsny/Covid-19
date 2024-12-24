@@ -11,7 +11,7 @@ const Uses = () => {
       <div className="container my-14">
         <div className="grid grid-cols-2 xl:grid-cols-4 gap-6">
           <motion.div
-            variants={SlideRight(0.2)}
+            variants={SlideLeft(0.2)}
             whileInView={"animate"}
             initial="initial"
             className="order-last md:order-first
@@ -26,37 +26,45 @@ const Uses = () => {
             </p>
             <p className="text-sm text-gray-400 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-              <a href="#" className="text-primary">
+              <a href="https://id.wikipedia.org/wiki/Covid-19" className="text-primary">
                 Learn More
               </a>
             </p>
+            <a href="https://infeksiemerging.kemkes.go.id/dashboard/covid-19">
             <button className="w-fit mt-4 border border-gray-200 px-4 py-2 rounded-lg hover:bg-primary hover:text-white transform duration-300">
               Get in Touch
             </button>
+            </a>
           </motion.div>
           <motion.div
-            variants={SlideLeft(0.4)}
+            variants={SlideRight(0.4)}
             whileInView={"animate"}
             initial="initial"
           >
-            <img src={Img1} alt="" className="w-full rounded-3xl " />
-            <p className="text-gray-400 mt-4">Coronavirus</p>
+            <a href="https://www.halodoc.com/kesehatan/coronavirus?srsltid=AfmBOopALNygTs-vW1EHit6wUzQbbcI8_NH5sMk4MXf6KYSU6AfkeQPv">
+              <img src={Img1} alt="" className="w-full rounded-3xl " />
+              <p className="text-gray-400 mt-4">Coronavirus</p>
+            </a>
           </motion.div>
           <motion.div
-            variants={SlideLeft(0.6)}
+            variants={SlideRight(0.6)}
             whileInView={"animate"}
             initial="initial"
           >
-            <img src={Img2} alt="" className="w-full rounded-3xl" />
-            <p className="text-gray-400 mt-4">Diagnostic</p>
+            <a href="https://www.who.int/health-topics/diagnostics#tab=tab_1">
+              <img src={Img2} alt="" className="w-full rounded-3xl" />
+              <p className="text-gray-400 mt-4">Diagnostic</p>
+            </a>
           </motion.div>
           <motion.div
-            variants={SlideLeft(0.8)}
+            variants={SlideRight(0.8)}
             whileInView={"animate"}
             initial="initial"
           >
-            <img src={Img3} alt="" className="w-full rounded-3xl" />
-            <p className="text-gray-400 mt-4">Symptoms</p>
+            <a href="https://www.cdc.gov/covid/signs-symptoms/index.html">
+              <img src={Img3} alt="" className="w-full rounded-3xl" />
+              <p className="text-gray-400 mt-4">Symptoms</p>
+            </a>
           </motion.div>
         </div>
       </div>

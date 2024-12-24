@@ -31,7 +31,10 @@ const Trust = () => {
             </p>
             <p className="text-sm text-gray-400">
               Enchance your preliminary diagnosis and triage with pediatric
-              content <span className="text-primary"> Learnmore</span>
+              content
+              <a href="https://id.wikipedia.org/wiki/Covid-19">
+               <span className="text-primary"> Learnmore</span>
+              </a>
             </p>
           </motion.div>
           <motion.div
@@ -48,7 +51,10 @@ const Trust = () => {
             </p>
             <p className="text-sm text-gray-400">
               Enchance your preliminary diagnosis and triage with pediatric
-              content <span className="text-primary"> Learnmore</span>
+              content 
+              <a href="https://id.wikipedia.org/wiki/Covid-19">
+              <span className="text-primary"> Learnmore</span>
+              </a>
             </p>
           </motion.div>
         </div>

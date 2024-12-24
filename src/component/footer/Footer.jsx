@@ -15,9 +15,15 @@ const Footer = () => {
         </div>
         {/* social icons */}
         <div className="flex space-x-6 text-3xl">
+          <a href="https://www.facebook.com/KementerianKesehatanRI">
           <FaFacebook className="hover:text-primary duration-200" />
+          </a>
+          <a href="https://www.instagram.com/kemenkes_ri/">
           <FaInstagram className="hover:text-primary duration-200" />
+          </a>
+          <a href="https://infeksiemerging.kemkes.go.id/dashboard/covid-19">
           <FaLinkedin className="hover:text-primary duration-200" />
+          </a>
         </div>
       </div>
     </motion.footer>
